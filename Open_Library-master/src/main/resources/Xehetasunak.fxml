@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ehu.isad.controllers.XehetasunakKud">
+   <children>
+      <Label layoutX="134.0" layoutY="14.0" text="Liburuaren xehetasunak">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="128.0" prefHeight="24.0" prefWidth="114.0" text="Argitaletxea">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label layoutX="88.0" layoutY="97.0" text="Izenburua">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label layoutX="85.0" layoutY="157.0" prefHeight="26.0" prefWidth="94.0" text="Orri kop.">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label layoutX="86.0" layoutY="184.0" prefHeight="29.0" prefWidth="94.0" text="Irudia">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Button layoutX="273.0" layoutY="314.0" mnemonicParsing="false" onAction="#onClick" text="Atzera" />
+      <ImageView fitHeight="134.0" fitWidth="101.0" layoutX="146.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="izID" layoutX="201.0" layoutY="102.0" prefHeight="18.0" prefWidth="391.0" text="Label" />
+      <Label fx:id="arID" layoutX="201.0" layoutY="131.0" prefHeight="18.0" prefWidth="369.0" text="Label" />
+      <Label fx:id="orID" layoutX="197.0" layoutY="157.0" prefHeight="18.0" prefWidth="310.0" text="Label" />
+      <ImageView fx:id="img" fitHeight="126.0" fitWidth="66.0" layoutX="189.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

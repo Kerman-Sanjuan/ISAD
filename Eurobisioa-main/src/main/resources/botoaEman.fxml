@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ehu.isad.controllers.ui.botoakController">
+   <children>
+      <TableView fx:id="tabla" layoutX="37.0" layoutY="96.0" prefHeight="231.0" prefWidth="527.0">
+        <columns>
+          <TableColumn fx:id="cHerrialdea" prefWidth="159.0" text="Herrialdea" />
+          <TableColumn fx:id="tArtista" prefWidth="118.0" text="Artista" />
+            <TableColumn fx:id="tAbestia" prefWidth="165.0" text="Abestia" />
+            <TableColumn fx:id="tPuntuak" prefWidth="82.0" text="Puntuak" />
+        </columns>
+      </TableView>
+      <Button fx:id="botoia" layoutX="245.0" layoutY="346.0" mnemonicParsing="false" onAction="#onClick" text="Bozkaketa Gorde" />
+      <ImageView fx:id="imgEurobisioa" fitHeight="86.0" fitWidth="206.0" layoutX="387.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgHerrialde" fitHeight="80.0" fitWidth="85.0" layoutX="37.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="lblText" layoutX="141.0" layoutY="20.0" prefHeight="57.0" prefWidth="250.0" text="Label" />
+   </children>
+</AnchorPane>
